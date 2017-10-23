@@ -6,7 +6,7 @@ default: &default
 development: &development
   <<: *default
   database: bookstore-backend_development
-  username: project-dbs
+  username: postgres
   password: password
   host: localhost
 
